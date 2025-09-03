@@ -2,7 +2,6 @@ import { Tabs } from 'expo-router'
 import { Ionicons } from "@expo/vector-icons"
 import { GoalsProvider } from '../../contexts/GoalsContext'
 
-
 export default function GoalsLayout() {
 
   return (
@@ -18,9 +17,9 @@ export default function GoalsLayout() {
           options={{
             title: 'Your Goals',
             tabBarIcon: ({ focused }) => (
-              <Ionicons 
-                size={24} 
-                name={focused ? 'home' : 'home-outline'} 
+              <Ionicons
+                size={24}
+                name={focused ? 'home' : 'home-outline'}
                 color="black"
               />
             ),
@@ -31,9 +30,9 @@ export default function GoalsLayout() {
           options={{
             title: 'Create Goal',
             tabBarIcon: ({ focused }) => (
-              <Ionicons 
-                size={24} 
-                name={focused ? 'create' : 'create-outline'} 
+              <Ionicons
+                size={24}
+                name={focused ? 'create' : 'create-outline'}
                 color="black"
               />
             ),
