@@ -1,15 +1,14 @@
 
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore/lite";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAn3uAyWQInAH-kkbU0Qnvrc_21axvnH78",
-  authDomain: "daily-habit-2004.firebaseapp.com",
-  projectId: "daily-habit-2004",
-  storageBucket: "daily-habit-2004.firebasestorage.app",
-  messagingSenderId: "872163122644",
-  appId: "1:872163122644:web:a0c8e561f75e7b570eca41"
+  apiKey: "AIzaSyAsFSkgYeV_EufYF_tv-18wX_uGWgK7AXU",
+  authDomain: "mlc-goals.firebaseapp.com",
+  projectId: "mlc-goals",
+  storageBucket: "mlc-goals.firebasestorage.app",
+  messagingSenderId: "1039167084527",
+  appId: "1:1039167084527:web:8b1d8ea526721193e2881a"
 };
 
+
 const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app)
